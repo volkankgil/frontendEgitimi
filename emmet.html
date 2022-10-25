@@ -1,0 +1,95 @@
+<!-- 
+    etiket isimlerini direk verme
+
+    + kardeş öğe
+    > içinde öğe
+    ^ yukarı cık ve öğe oluştur
+    * carp -> p*3
+    lorem ??? -> çok uzun yazı
+    lorem4 -> 4 kelimelik lorem üret
+    . -> class
+    # -> id
+-->
+
+<!-- h1+p+p+h2+p+p+p+p-->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<!--h1+p*2+h2+p*4-->
+<h1></h1>
+<p></p>
+<p></p>
+<h2></h2>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<!--ul>li*5-->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<!--ul>li*3^p*2+h3-->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p></p>
+<p></p>
+<h3></h3>
+
+<!-- ul>li*3>lorem1^p*2>lorem4+h3>lorem1 --hatalı-- -->
+<!-- ul>li*3>lorem1^^p*2>lorem4^h3>lorem1-->
+<ul>
+    <li>Lorem.</li>
+    <li>Optio.</li>
+    <li>Distinctio?</li>
+</ul>
+<p>Lorem ipsum dolor sit.</p>
+<p>Commodi laudantium nulla iste.</p>
+<h3>Lorem.</h3>
+
+<h3 class="deneme"></h3>
+<h3 class="deneme">Lorem.</h3> <!-- h3.deneme.lorem1 yazarisek yandaki yapı oluşur-->
+
+
+<h3 id="idolussun"></h3> <!-- h3#idoluşşsun-->
+
+
+<h3 class="deneme" id="idolussun">Lorem.</h3> <!-- h3.deneme#idolussun>lorem1  hem id hemde class oluşuyor-->
+
+<!--Peki otomatik artış sağlayan değerleri tek tek yazmak amacımız zaman tasarrufu iken ne kadar mantıklı?
+
+Emmet bunun için de bir kısa yola sahip :$ ifadesi. Yani yukarda görmüş olduğunuz ul>li#id1+li#id2+li#id3 şeklinde yazdığımız kod bloğunu çok daha basit bir biçimde ul>li#idNo$*3 diyerek yazabiliriz.
+
+Böylece otomatik olarak idNo1, idNo2 ve idNo3 idlerine sahip üç adet li tagımız olur.-->
+
+<ul>
+    <li id="idNo1"></li>
+    <li id="idNo2"></li>
+    <li id="idNo3"></li>
+</ul>
+
+<p>span:
+    Lorem ipsum dolor 
+    <hr>  <!-- hr etiketi bir adet düz çizgi çekiyor.-->
+    <div>
+        <strong>sit</strong><span style="color:red">amet.</span> 
+    </div>
+</p>
+
+<p>
+    <strong><em>Lorem, ipsum dolor.</em></strong>
+</p>
