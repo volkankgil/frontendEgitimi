@@ -1,0 +1,20 @@
+/*******************Layout****************/
+
+body{
+    background-color: red;  
+    color: white;
+    font-family: 'Island Moments', cursive;
+    font-style: normal;
+    <!--bu yapıyı body yerine başka bir etiket üzerine yazar isek sadece onun satırını dolgu yapar-->
+}
+
+h2{
+    /*color: yellow;*/
+    font-size: larger;
+    text-align: center;
+    border: 7px;
+}
+
+ul{
+    color: wheat;
+}
