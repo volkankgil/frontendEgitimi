@@ -1,6 +1,24 @@
 /* class -> .text-red {} */
 /* id -> #id-bilgisi {} */
 
+
+li:first-child{
+    color: blueviolet;
+}
+
+li:last-child{
+    color: darkcyan;
+}
+
+li:nth-child(2){     <!-- odd yazar isek sadece tekleri even yazar isek sadece listenin çift sayılarını değiştirir-->
+    background-color: azure;
+}
+
+.color-blue .fw-normal{
+    color: blue; 
+    font-weight: normal;
+}
+
 h1,h2,h3,h4,h5,h6 {
     color:#202020;
 }
