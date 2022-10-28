@@ -1,0 +1,23 @@
+body{
+    background-color:bisque;
+}
+
+.italic{
+    font-style: italic;
+}
+
+#footer {
+    font: bold;
+    font-family:'Times New Roman', Times, serif ;
+    margin-left: 1000px;
+}
+
+.ilkparagraf {
+    text-align: right;
+    margin-right: 300px;
+}
+
+.paragraf {
+    position:relative;
+    left: 600px;
+}
