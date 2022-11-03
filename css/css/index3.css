@@ -1,0 +1,80 @@
+body {
+    /*margin: 0;
+    padding: 0;     bu etiketleri kullanır isek web 4 taraftan verdiği otomatik boşlukları sıfırlamış oluruz.*/
+}
+
+h1 {
+    clear: both; /* bu özellik sayesinde float'ın left özelliğini sıfırlamış oluyoruz.*/
+}
+
+
+.box{
+
+    width: 200px;
+    height: 5cm;
+    padding: 10px;  /* bir kutunun içinde sanal olarak 4 tarftan boşluk bırakır.*/
+    /* margin: 20px;  <!-- sadece margin 4 isek kutular arasında 4 tarafta boşluk bırakır. -->*/
+    margin-top:20px;
+    /*margin-left: 20px;*/
+    margin-right: 20px;
+    /*margin-bottom: 20px;*/
+    float: left;  /* kutuları yan yana getirmeye yarar*/
+    
+}
+
+.left-bar {
+    width: 200px;
+    float: left;
+}
+
+.container {
+    width: 1000px;
+    /*margin-left: auto;
+    margin-right: auto;*/
+    margin:50px auto 0 auto; /* saat ekseninde dönerken kutucuk hizlama*/
+    
+}
+
+.content {
+    width: 800px;
+    float: left;
+   
+}
+
+.card {
+    width: 20%;
+    float: left;
+    padding: 5%;
+    margin-right: 3%;
+    border-radius: 20px; /*kutuların köşelerine radius veriyor*/
+    background-color: beige;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.gradient {
+    background: linear-gradient(135deg,rgba(112,73,186,0.6785938262939453),rgba(233,80,149,0.3910938262939453));
+}
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    font-size: larger;
+    text-decoration: none;
+    -webkit-box-shadow: 1px 5px 18px 8px #000000; <!--CSS shadow generator'dan ürettik-->
+    box-shadow: 1px 5px 18px 8px #000000;
+    
+}
+
+

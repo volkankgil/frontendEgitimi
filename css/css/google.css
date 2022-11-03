@@ -1,0 +1,54 @@
+
+.ilkblock {
+    background-color:  rgb(238, 238, 238);
+    width: 1350px;
+    margin: auto;  <!-- margin auto yazdığımızda verdiğimiz ayara göre div'i ortalar-->
+    margin-top: 8px;
+    margin-bottom: 3px;
+}
+
+.ikinciblok {
+    width: 1350px;
+    margin: auto;
+    
+    
+}
+
+/*.box{
+    width: 200px;
+    float: left;
+}*/
+
+.box1 {
+    background-color: rgb(112, 204, 194);
+    width: 500px;
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+    
+}
+
+.box2 {
+    background-color: rgb(112, 204, 194);
+    width: 250px;
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+    
+}
+
+.box3 {
+    background-color: rgb(112, 204, 194);
+    width: 589px;
+    float: left;
+    margin-left: 5px;
+    padding-bottom: 18px;
+    
+}
+
+footer{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 120px;
+}
+
